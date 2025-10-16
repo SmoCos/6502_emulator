@@ -60,7 +60,7 @@
   </a>
 
   <!-- Resources -->
-  <a href="./Resources/">
+  <a href="Resources">
     <rect class="card" x="370" y="150" width="300" height="90" />
     <text x="395" y="180" class="title">📚 Resources</text>
     <text x="395" y="205" class="desc">Research papers and learning material</text>
