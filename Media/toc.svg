@@ -5,50 +5,36 @@
       font-family: "Segoe UI", "Helvetica Neue", sans-serif;
       dominant-baseline: middle;
     }
+
+    /* Title and description colors baked for readability */
     .title {
       font-weight: 700;
       font-size: 18px;
+      fill: #f0f6fc; /* high-contrast title */
     }
+
     .desc {
       font-size: 12px;
-      fill: var(--text-muted);
+      fill: #cccccc; /* readable description text */
     }
 
     /* Card styling */
     .card {
-      fill: var(--bg);
-      stroke: var(--border);
+      fill: #2b2b2b;       /* mid-tone card background */
+      stroke: #888888;     /* visible border */
       stroke-width: 1.2;
       rx: 12;
       ry: 12;
       transition: 0.2s;
     }
+
     a:hover .card {
-      fill: var(--hover);
-      stroke: var(--accent);
+      fill: #3c3c3c;       /* slightly lighter hover */
+      stroke: #1a73e8;     /* accent border on hover */
     }
+
     a:hover text.title {
-      fill: var(--accent);
-    }
-
-    /* Light mode defaults */
-    :root {
-      --bg: #ffffff;
-      --border: #ccc;
-      --hover: #f3f7ff;
-      --accent: #1a73e8;
-      --text-muted: #555;
-    }
-
-    /* Dark mode overrides */
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0d1117;
-        --border: #30363d;
-        --hover: #1a1f25;
-        --accent: #58a6ff;
-        --text-muted: #aaa;
-      }
+      fill: #1a73e8;       /* accent color on hover */
     }
   </style>
 
