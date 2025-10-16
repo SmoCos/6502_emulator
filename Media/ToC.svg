@@ -1,0 +1,47 @@
+<svg width="600" height="250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .section {
+      font: 700 16px sans-serif;
+      fill: #1a73e8;
+      cursor: pointer;
+    }
+    .section:hover {
+      fill: #0b5ed7;
+    }
+    .desc {
+      font: 400 12px sans-serif;
+      fill: #555;
+    }
+    rect {
+      rx: 10;
+      ry: 10;
+      fill: #f8f9fa;
+      stroke: #ccc;
+      stroke-width: 1;
+    }
+  </style>
+
+  <a href="./hardware/">
+    <rect x="20" y="20" width="250" height="80" />
+    <text x="40" y="50" class="section">⚙️ Hardware</text>
+    <text x="40" y="70" class="desc">Schematics and embedded boards</text>
+  </a>
+
+  <a href="./software/">
+    <rect x="330" y="20" width="250" height="80" />
+    <text x="350" y="50" class="section">💻 Software</text>
+    <text x="350" y="70" class="desc">Firmware and control tools</text>
+  </a>
+
+  <a href="./docs/">
+    <rect x="20" y="130" width="250" height="80" />
+    <text x="40" y="160" class="section">📄 Documentation</text>
+    <text x="40" y="180" class="desc">Technical and design docs</text>
+  </a>
+
+  <a href="./resources/">
+    <rect x="330" y="130" width="250" height="80" />
+    <text x="350" y="160" class="section">📚 Resources</text>
+    <text x="350" y="180" class="desc">Research and references</text>
+  </a>
+</svg>
