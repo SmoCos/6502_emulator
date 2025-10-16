@@ -52,7 +52,7 @@
   </text>
   <!-- Owner 2 -->
   <a href="https://github.com/Anloms">
-    <rect class="card" x="380" y="70" width="270" height="150" />
+    <rect class="card" x="50" y="70" width="270" height="150" />
     <text x="185" y="105" class="title" text-anchor="middle">🚀 Aleksandra Smolna</text>
     <text x="185" y="130" class="desc" text-anchor="middle">Software Engineer</text>
     <text x="185" y="155" class="desc" text-anchor="middle">Software Engineer</text>
@@ -61,7 +61,7 @@
 
     <!-- Owner 1 -->
   <a href="https://github.com/Muktim">
-    <rect class="card" x="50" y="70" width="270" height="150" />
+    <rect class="card" x="380" y="70" width="270" height="150" />
     <text x="515" y="105" class="title" text-anchor="middle">🚀 Muktim Coskuner</text>
     <text x="515" y="130" class="desc" text-anchor="middle">Software Engineer</text>
     <text x="515" y="155" class="desc" text-anchor="middle">Software Engineer</text>
