@@ -51,21 +51,5 @@
     👥 Meet the Team!
   </text>
 
-  <!-- Owner 2 -->
-  <a href="https://github.com/Anloms">
-    <rect class="card" x="380" y="70" width="270" height="150" />
-    <text x="515" y="105" class="title" text-anchor="middle">🧠 Collaborator</text>
-    <text x="515" y="130" class="desc" text-anchor="middle">Software Engineer</text>
-    <text x="515" y="155" class="desc" text-anchor="middle">Software Engineer</text>
-    <text x="515" y="185" class="desc" text-anchor="middle">🔗 github.com/Anloms</text>
-  </a>
 
-    <!-- Owner 1 -->
-  <a href="https://github.com/Muktim">
-    <rect class="card" x="50" y="70" width="270" height="150" />
-    <text x="185" y="105" class="title" text-anchor="middle">🚀 Your Name</text>
-    <text x="185" y="130" class="desc" text-anchor="middle">Founder • Embedded & Aerospace Engineer</text>
-    <text x="185" y="155" class="desc" text-anchor="middle">Systems Engineer | Software Engineer | Aerospace Engineer</text>
-    <text x="185" y="185" class="desc" text-anchor="middle">🔗 github.com/Muktim</text>
-  </a>
 </svg>
