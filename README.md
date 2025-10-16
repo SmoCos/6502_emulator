@@ -9,9 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YourOrg/YourRepo">
-    <img src="./Media/ToC.svg" alt="Project Table of Contents"/>
-  </a>
+  <img src="./Media/toc.svg" alt="Table of Contents">
 </p>
+
 
 
