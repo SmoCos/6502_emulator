@@ -1,47 +1,82 @@
-<svg width="600" height="250" xmlns="http://www.w3.org/2000/svg">
+<svg width="700" height="280" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .section {
-      font: 700 16px sans-serif;
-      fill: #1a73e8;
-      cursor: pointer;
+    /* Layout + Fonts */
+    text {
+      font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+      dominant-baseline: middle;
     }
-    .section:hover {
-      fill: #0b5ed7;
+    .title {
+      font-weight: 700;
+      font-size: 18px;
     }
     .desc {
-      font: 400 12px sans-serif;
-      fill: #555;
+      font-size: 12px;
+      fill: var(--text-muted);
     }
-    rect {
-      rx: 10;
-      ry: 10;
-      fill: #f8f9fa;
-      stroke: #ccc;
-      stroke-width: 1;
+
+    /* Card styling */
+    .card {
+      fill: var(--bg);
+      stroke: var(--border);
+      stroke-width: 1.2;
+      rx: 12;
+      ry: 12;
+      transition: 0.2s;
+    }
+    a:hover .card {
+      fill: var(--hover);
+      stroke: var(--accent);
+    }
+    a:hover text.title {
+      fill: var(--accent);
+    }
+
+    /* Light mode defaults */
+    :root {
+      --bg: #ffffff;
+      --border: #ccc;
+      --hover: #f3f7ff;
+      --accent: #1a73e8;
+      --text-muted: #555;
+    }
+
+    /* Dark mode overrides */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --border: #30363d;
+        --hover: #1a1f25;
+        --accent: #58a6ff;
+        --text-muted: #aaa;
+      }
     }
   </style>
 
+  <!-- Hardware -->
   <a href="./hardware/">
-    <rect x="20" y="20" width="250" height="80" />
-    <text x="40" y="50" class="section">⚙️ Hardware</text>
-    <text x="40" y="70" class="desc">Schematics and embedded boards</text>
+    <rect class="card" x="30" y="30" width="300" height="90" />
+    <text x="55" y="60" class="title">⚙️ Hardware</text>
+    <text x="55" y="85" class="desc">Schematics, PCBs, embedded boards</text>
   </a>
 
+  <!-- Software -->
   <a href="./software/">
-    <rect x="330" y="20" width="250" height="80" />
-    <text x="350" y="50" class="section">💻 Software</text>
-    <text x="350" y="70" class="desc">Firmware and control tools</text>
+    <rect class="card" x="370" y="30" width="300" height="90" />
+    <text x="395" y="60" class="title">💻 Software</text>
+    <text x="395" y="85" class="desc">Firmware, tools, and simulators</text>
   </a>
 
+  <!-- Documentation -->
   <a href="./docs/">
-    <rect x="20" y="130" width="250" height="80" />
-    <text x="40" y="160" class="section">📄 Documentation</text>
-    <text x="40" y="180" class="desc">Technical and design docs</text>
+    <rect class="card" x="30" y="150" width="300" height="90" />
+    <text x="55" y="180" class="title">📄 Documentation</text>
+    <text x="55" y="205" class="desc">Design notes, reports, and manuals</text>
   </a>
 
+  <!-- Resources -->
   <a href="./resources/">
-    <rect x="330" y="130" width="250" height="80" />
-    <text x="350" y="160" class="section">📚 Resources</text>
-    <text x="350" y="180" class="desc">Research and references</text>
+    <rect class="card" x="370" y="150" width="300" height="90" />
+    <text x="395" y="180" class="title">📚 Resources</text>
+    <text x="395" y="205" class="desc">Research papers and learning material</text>
   </a>
 </svg>
