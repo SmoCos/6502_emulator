@@ -3,8 +3,7 @@
 
 #include <cstdint>
 
-
-
+// #include "Pin.hpp"
 
 
 class MOS6502
@@ -17,7 +16,7 @@ class MOS6502
 
 	private:
 
-	// Array of 40 for each pin
+		// Pin	pins[40];
 
 		// Register Accumulator, Register X, Register Y, Register Stack Pointer [Be aware of the offset]
 		uint8_t		_registerA, _registerX, _registerY, _registerSP;

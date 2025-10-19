@@ -6,9 +6,10 @@
 
 #include <iostream>
 
-int	main()
+int	main(int ac, char **av)
 {
 	std::cout << "MOS 6502 Emulator" << std::endl;
 
-	MOS6502	cpu;
+
+
 }
